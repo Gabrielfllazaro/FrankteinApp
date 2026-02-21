@@ -47,6 +47,27 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="200px"
+            android:text="Recuperar senha !"
+            android:textAlignment="center"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="300px"
+            android:text="Cadastrar"
+            android:textAlignment="center"
+            android:textSize="13dp" />
+    </RelativeLayout>
+
     <Button
         style="@style/CardView.Dark"
         android:layout_width="250dp"
@@ -54,25 +75,6 @@
         android:backgroundTint="#2c2"
         android:text="Log In"
         android:textSize="20dp" />
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <TextView
-        android:layout_marginRight="200px"
-        android:layout_width="200dp"
-        android:layout_height="30dp"
-        android:text="Recuperar senha !"
-        android:textAlignment="center"
-        android:textSize="13dp" />
-
-    <TextView
-        android:layout_marginLeft="300px"
-        android:layout_width="200dp"
-        android:layout_height="30dp"
-        android:text="Cadastrar"
-        android:textAlignment="center"
-        android:textSize="13dp" />
-    </RelativeLayout>
 
 
 </LinearLayout>
