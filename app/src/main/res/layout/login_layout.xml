@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    android:background="#A9A9A9"
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
-    android:background="#A9A9A9">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:layout_width="150dp"
@@ -20,7 +20,7 @@
         android:layout_height="80dp"
         android:text="Frankstein"
         android:textAlignment="center"
-        android:textSize="40dp"/>
+        android:textSize="40dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/outlinedTextField"
@@ -42,23 +42,37 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:maxLength="6" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
+        style="@style/CardView.Dark"
         android:layout_width="250dp"
         android:layout_height="60dp"
+        android:backgroundTint="#2c2"
         android:text="Log In"
-        android:textSize="20dp"
-        style="@style/CardView.Dark"
-        android:backgroundTint="#2c2"/>
-
+        android:textSize="20dp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <TextView
+        android:layout_marginRight="200px"
         android:layout_width="200dp"
         android:layout_height="30dp"
         android:text="Recuperar senha !"
         android:textAlignment="center"
-        android:textSize="15dp" />
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_marginLeft="300px"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Cadastrar"
+        android:textAlignment="center"
+        android:textSize="13dp" />
+    </RelativeLayout>
+
 
 </LinearLayout>
