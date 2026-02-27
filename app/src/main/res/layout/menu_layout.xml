@@ -3,16 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A9A9A9"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:backgroundTint="#442C2828">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#2c2"
+        android:background="#C522CC22"
         android:gravity="center"
         android:padding="16dp"
         android:text="Menu"
-        android:textSize="32sp" />
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="60dp"/>
 
 
     <LinearLayout
@@ -31,7 +34,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="CABELO DE BRUXA" />
+                android:text="BATMAN"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textSize="20dp"
+                android:textColor="#E0000000"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/batman"
+                android:background="#8DFFE826"/>
+
+
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -43,7 +58,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="FOICE" />
+                android:text="FOICE"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/foice"
+                android:background="#7AC3C0C0"/>
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
@@ -67,15 +91,13 @@
                 android:text="DOCES"
                 android:textStyle="bold"
                 android:fontFamily="serif"
-                android:textSize="20dp"
-                />
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/doces"
-                android:background="#7AFF3E6F"
-                />
+                android:background="#7AFF3E6F" />
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
