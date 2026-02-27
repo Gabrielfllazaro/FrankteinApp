@@ -1,64 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A9A9A9"
-    tools:context=".MenuActivity">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#2c2"
+        android:gravity="center"
+        android:padding="16dp"
         android:text="Menu"
-        android:textSize="80dp" />
+        android:textSize="32sp" />
+
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_vertical">
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="200dp"
-            android:layout_height="200dp">
+            android:layout_width="170dp"
+            android:layout_height="190dp"
+            android:layout_margin="16dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Card1" />
-
+                android:gravity="center"
+                android:text="CABELO DE BRUXA" />
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="200dp"
-            android:layout_height="200dp">
+            android:layout_width="170dp"
+            android:layout_height="190dp"
+            android:layout_margin="16dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Card1" />
-
+                android:gravity="center"
+                android:text="FOICE" />
         </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="200dp"
-            android:layout_height="200dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Card1" />
-
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="200dp"
-            android:layout_height="200dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Card1" />
-
-        </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="170dp"
+            android:layout_height="190dp"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DOCES"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textSize="20dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/doces"
+                android:background="#7AFF3E6F"
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="170dp"
+            android:layout_height="190dp"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ABÓBORAS"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textSize="20dp"
+                android:textColor="#E0FF3500"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/aboboraf"
+                android:background="#A3F2B27C"
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
 </LinearLayout>
