@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/batman"
-                android:background="#8DFFE826"/>
+                android:background="#AA070707"/>
 
 
         </com.google.android.material.card.MaterialCardView>
@@ -97,7 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/doces"
-                android:background="#7AFF3E6F" />
+                android:background="#5DFF3E6F" />
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView

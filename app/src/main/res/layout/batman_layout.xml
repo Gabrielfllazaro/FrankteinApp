@@ -5,23 +5,67 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D1181717"
     android:orientation="vertical"
-    tools:context=".ActivityBatman"
-    android:background="#8DFFE826">
+    tools:context=".ActivityBatman">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sair"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="BATMAN"
+            android:textColor="#E0000000"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/boneco"
+        android:layout_marginTop="40dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="BATMAN"
+        android:text="Valor : R$60"
         android:textStyle="bold"
-        android:fontFamily="serif"
         android:textSize="20dp"
-        android:textColor="#E0000000"/>
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
 
-    </RelativeLayout>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:text="BUY"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center_horizontal"
+        android:elevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"/>
 </LinearLayout>
