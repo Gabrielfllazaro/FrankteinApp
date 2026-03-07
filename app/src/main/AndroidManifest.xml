@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FrankteinApp">
         <activity
+            android:name=".ActivityAboboras"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityFoice"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDoces"
+            android:exported="false" />
+        <activity
             android:name=".ActivityBatman"
             android:exported="false" />
         <activity
